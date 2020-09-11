@@ -13,7 +13,7 @@ const Jokes = (props) => {
   async function fetchData() {
     let fetchURL = "https://api.chucknorris.io/jokes/random"
 
-    if (props.category != ""){
+    if (props.category !== ""){
       fetchURL = "https://api.chucknorris.io/jokes/random?category=" + props.category
     }
    

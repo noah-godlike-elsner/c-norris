@@ -16,7 +16,6 @@ const useStyles = makeStyles((theme) => ({
 function AppContainer() {
     
     const [Category, setCategory] = useState([]);
-    const [myText, setMyText] = useState(1);
 
     const classes = useStyles();
 
